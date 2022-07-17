@@ -10,6 +10,7 @@ public class Q08_Arrays {
          kac tane 3 e bolunebilen sayi vardir ?(negatif sayilar da dahil olsun)
         */
      public static void main(String[] args) {
+        /*
          Scanner scan=new Scanner(System.in);
          System.out.println("8 elemnalı bir dizi giriniz");
 
@@ -25,7 +26,25 @@ public class Q08_Arrays {
                  sayac++;
              }
          }
-         System.out.println(sayac+" tane 3 e bölünebilen elemna vardır");
+         System.out.println(sayac+" tane 3 e bölünebilen elemna vardır");*/
+
+         Scanner scan=new Scanner(System.in);
+         System.out.println("Dizinin eleman syısını girinzi");
+         int boyut= scan.nextInt();
+
+         int[]arr=new int[boyut];
+         int sayac=0;
+         for (int i = 0; i < arr.length ; i++) {
+             System.out.println("dizinin "+ i +". elementi giriniz");
+             arr[i]= scan.nextInt();
+             System.out.print(arr[i]+" ");
+             if (arr[i]%3==0){
+
+                 sayac++;
+             }
+         }
+         System.out.println("3 ebolunebilen sayı : "+ sayac);
+
      }
 
 }

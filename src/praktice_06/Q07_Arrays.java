@@ -9,6 +9,7 @@ public class Q07_Arrays {
      */
 
     public static void main(String[] args) {
+   /*Benim cozunum
         int arr[]={5,7,-6,4,2,15,3,8,1};
         int istenenTop=9;
         for (int i = 0; i < arr.length; i++) {
@@ -18,7 +19,21 @@ public class Q07_Arrays {
                     System.out.print(arr[j]+" ");
                 }
             }
+       }*/
 
+
+        int[] arr= {5,7,-6,4,2,15,3,8,1};
+        int istenenTop=8;
+        arrMethod(arr,istenenTop);
+    }
+
+    public static void arrMethod(int[] arr, int istenenTop) {
+        for (int i = 0; i < arr.length ; i++) {
+            for (int j = i; j < arr.length ; j++) {
+                if (arr[i]+arr[j]==8){
+                    System.out.println(arr[i]+" ve "+ arr[j]+" toplam : "+istenenTop);
+                }
+            }
         }
     }
 

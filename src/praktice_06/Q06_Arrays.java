@@ -1,5 +1,7 @@
 package praktice_06;
 
+import java.util.Arrays;
+
 public class Q06_Arrays {
 
     /*  you have a string "HeySiri"
@@ -8,6 +10,12 @@ public class Q06_Arrays {
      *
      */
     public static void main(String[] args) {
+
+        String str="HeySri";
+        str=str.replace("Hey","Bye");
+        String[]arr=new String[1];
+        arr[0]=str;
+        System.out.println(Arrays.toString(arr));
 
     }
 }

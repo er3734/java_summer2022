@@ -8,6 +8,8 @@ public class Q09_Arrays {
 
      */
     public static void main(String[] args) {
+        /*benim cozumum
+
         int[][]dizi1={ {0,2,-1}, {3,8,9}, {7} };
         int[][]dizi2={ {-7,6,-9}, {0,12}, {19} };
         int top=0;
@@ -23,6 +25,26 @@ public class Q09_Arrays {
                 top+=dizi2[i][j];
             }
         }
-        System.out.println(top);
+        System.out.println(top);*/
+
+        int[][]dizi1={ {0,2,-1}, {3,8,9}, {7} };
+        int[][]dizi2={ {-7,6,-9}, {0,12}, {19} };
+
+        int sum1=0;
+        for (int i = 0; i <dizi1.length ; i++) {
+            for (int j = 0; j <dizi1[i].length ; j++) {
+                sum1+=dizi1[i][j];
+            }
+        }
+        System.out.println("sum1 = " + sum1);
+        int sum2=0;
+        for (int i = 0; i < dizi2.length ; i++) {
+            for (int j = 0; j <dizi2[i].length ; j++) {
+                sum2+=dizi2[i][j];
+            }
+        }
+        System.out.println("sum2 = " + sum2);
+        System.out.println("dizi1 ile dizi2 elemanları toplamı : "+(sum1+sum2));
+
     }
 }

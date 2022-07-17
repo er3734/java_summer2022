@@ -1,6 +1,5 @@
-package day24_rrayList_ForEachLoop;
+package day24_ArrayList_ForEachLoop;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -10,7 +9,7 @@ public class C01_ArraydenArrayListYapmak {
         String[]arr={"ismail","nurullah","fatih"};
         /*
         uzun listler olusturmamız gerektiğinde tek tek eklemek yeine
-        array oluşturp nunları liste cevirmek daha pratik olabilir
+        array oluşturp bunları liste cevirmek daha pratik olabilir
        1-loop ile arraydeki tüm elementleri list eatabiliriz
        2-Arrays clasında Arrays.asList methodunu kullanabiliriz
        ancak bu methodun 2 tane kötü yan etkisi var

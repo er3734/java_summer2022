@@ -1,4 +1,4 @@
-package day24_rrayList_ForEachLoop;
+package day24_ArrayList_ForEachLoop;
 
 public class C07_ArraydekiSayilarinKareToplami {
     public static void main(String[] args) {
