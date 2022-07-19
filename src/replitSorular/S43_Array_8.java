@@ -10,6 +10,7 @@ public class S43_Array_8 {
         int[]dizi={1232,2345,5467,678,3454,2312,3451};
         Arrays.sort(dizi);
         System.out.println(Arrays.toString(dizi));
-        System.out.println(dizi[dizi.length-2]);
+        if (dizi[dizi.length-1]>dizi[dizi.length-2]){
+        System.out.println(dizi[dizi.length-2]);}
     }
 }

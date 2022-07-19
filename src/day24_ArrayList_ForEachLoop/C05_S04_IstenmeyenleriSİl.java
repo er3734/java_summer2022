@@ -7,7 +7,7 @@ import java.util.List;
 public class C05_S04_IstenmeyenleriSİl {
     public static void main(String[] args) {
         // Soru 4) Verilen bir array'de istenmeyen harf iceren kelimeleri silip,
-// kalan elementleri yeni bir array yapin
+          // kalan elementleri yeni bir array yapin
 
         String[]sehirler={"istanbul","ankara","mersin","konya","kastamonu"};
         String istenmyenHarf="a";

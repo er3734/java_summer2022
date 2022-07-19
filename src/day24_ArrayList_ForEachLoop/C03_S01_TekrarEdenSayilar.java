@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class C03_S01_TekrarEdenSayilar {
+    //Soru 1) Verilen bir array’deki tekrar eden elementleri yazdirin.
     public static void main(String[] args) {
         //Soru 1) Verilen bir array’deki tekrar eden elementleri yazdirin.
 
