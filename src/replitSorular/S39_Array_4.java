@@ -1,7 +1,5 @@
 package replitSorular;
 
-import java.util.Arrays;
-
 public class S39_Array_4 {
     public static void main(String[] args) {
         /*Aşağıdaki grid şeklini yazan Java Kodunu yazınız.

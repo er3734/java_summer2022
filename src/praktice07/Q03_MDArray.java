@@ -21,6 +21,19 @@ public class Q03_MDArray {
             }
         }
         System.out.println("top = " + top);
+        /*
+        private static int ciftleriTopla(int[][] arr) {
+        int toplam =0;
+        for(int [] each1 :arr){ //outer for each
+            for(int each2 :each1) { //inner for each
+                if(each2%2==0){
+                    toplam += each2;
+                }
+            }
+        }
+        return toplam;
+    }
+         */
     }
 
 }

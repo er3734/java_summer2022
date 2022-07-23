@@ -1,6 +1,5 @@
 package replitSorular;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class S26ForWhile1 {
