@@ -15,6 +15,7 @@ public class M10PolidromMet {
             return true;
         else
             return false;
+
     }
     public static void main(String[] args) {
         System.out.println(isPolindrom(323));

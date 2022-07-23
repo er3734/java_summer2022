@@ -15,6 +15,7 @@ public class M2Faktoriyel {
         }
         //System.out.println("fak : " + f);
         return f;
+
     }
     public static void main(String[] args) {
         /*faktöriyel();

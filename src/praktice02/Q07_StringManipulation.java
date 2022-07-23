@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Q07_StringManipulation {
 
     // Kullanicidan 4 harfli bir kelime isteyin
+<<<<<<< HEAD
     // ve girilen kelimeyi tersten yazdiri
     public static void main(String[] args) {
        cevirme();
@@ -20,5 +21,9 @@ public class Q07_StringManipulation {
         System.out.println("tersKel = " + tersKel);
     }
 
+=======
+    // ve girilen kelimeyi tersten yazdirin
+    Scanner scan=new Scanner(System.in);
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 
 }

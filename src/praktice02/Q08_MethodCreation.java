@@ -1,7 +1,10 @@
 package praktice02;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 public class Q08_MethodCreation {
      /*
       Problem Tanımı :
@@ -10,6 +13,7 @@ public class Q08_MethodCreation {
       Kullanicidan iki sayi girmesini isteyiniz.
       Girilen iki sayi ve secilen isleme gore dogru sonucu ekrana yazdirınız.
     */
+<<<<<<< HEAD
      public static void main(String[] args) {
       hespMak();
          System.out.println(hespMak());
@@ -47,4 +51,6 @@ public class Q08_MethodCreation {
          }
          return sonuc;
      }
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 }

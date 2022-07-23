@@ -12,6 +12,7 @@ public class Q05_StringManipulastion {
         String isim=scan.nextLine();
         System.out.println("lutfen soyisminizi giriniz");
         String soyIsim=scan.nextLine();
+<<<<<<< HEAD
         isimsoyisimUzunluk(isim,soyIsim);
 
     }
@@ -23,5 +24,7 @@ public class Q05_StringManipulastion {
             System.out.println("isim ve soyismizin uzuluğu eşit");
         } else
             System.out.println("soyisminiz isminizden daha uzun");
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
     }
 }

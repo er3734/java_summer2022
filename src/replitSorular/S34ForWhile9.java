@@ -1,7 +1,10 @@
 package replitSorular;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 public class S34ForWhile9 {
    /* Kullanıcının girdiği sayıyı tersine çeviren
    bir java programı yazınız. (Mulakat Sorusu)
@@ -9,6 +12,7 @@ public class S34ForWhile9 {
     Giriş :1238
 
     Output :Girilen Numananin Tersi: 8321*/
+<<<<<<< HEAD
    public static void main(String[] args) {
        Scanner scan=new Scanner(System.in);
        System.out.println("bir sayı giriniz");
@@ -27,4 +31,6 @@ public class S34ForWhile9 {
        System.out.println("yters = " + yters);
        return yters;
    }
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 }

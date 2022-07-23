@@ -5,6 +5,7 @@ public class S31ForWhile6 {
 
             ÇIKTI :
     abc .. .. .. yz*/
+<<<<<<< HEAD
    public static void main(String[] args) {
 
       for (char i = 'a'; i <='z' ; i++) {
@@ -14,4 +15,6 @@ public class S31ForWhile6 {
             System.out.println(i);
       }
    }
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 }

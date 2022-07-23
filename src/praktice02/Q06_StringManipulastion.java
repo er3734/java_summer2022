@@ -6,6 +6,7 @@ public class Q06_StringManipulastion {
 
     // Kullanicidan alacaginiz bir stringde bosluk karakterinin olup olmadigini kontrol ediniz.
     // Kullanicidan alacaginiz bir stringin bos olup olmadigini kontrol ediniz.
+<<<<<<< HEAD
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("lutfen bir string ifade giriniz");
@@ -31,3 +32,7 @@ public class Q06_StringManipulastion {
 
     }
 }
+=======
+    Scanner scan=new Scanner(System.in);
+}
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557

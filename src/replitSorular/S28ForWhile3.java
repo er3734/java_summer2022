@@ -5,6 +5,7 @@ public class S28ForWhile3 {
        /* Bir String icerisinde yinelenen karakterleri döndüren bir kod yazıniz.(mülakat Sorusu)
         Giriş :
         String str = “Javaisalsoeasy”
+<<<<<<< HEAD
         Çıktı: olarak as*/
 
         String str="javasalsoeasy";
@@ -23,5 +24,8 @@ public class S28ForWhile3 {
         }
         System.out.println("tekrarEden = " +
                 tekrarEden.substring(0,tekrarEden.length()-1));
+=======
+        Çıktı: olarak*/
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
     }
 }

@@ -5,6 +5,7 @@ public class S29ForWhile4 {
         /*irdi olarak bir tamsayı kabul eden ve faktöriyel hesaplayan programi yazıniz.
                 Giriş : 6
         Çıktı: 6!=6 5 4 3 2*1=720*/
+<<<<<<< HEAD
 
         int input = 7;
         int fak = 1;
@@ -20,4 +21,7 @@ public class S29ForWhile4 {
             System.out.println("yanlış sayı girdiniz");
     }
     
+=======
+    }
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 }

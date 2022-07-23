@@ -11,6 +11,7 @@ public class S32ForWhile7 {
             ======================
     Giriş 7
     Çıktı:7 Mukemmel Sayidir degildir.*/
+<<<<<<< HEAD
    public static void main(String[] args) {
        int sayi=8;
        int top=0;
@@ -25,4 +26,6 @@ public class S32ForWhile7 {
                System.out.println("mukemmel sayı değilidr");
            }
    }
+=======
+>>>>>>> 7e6f873aecd00867db15615b9dbce48ba4389557
 }
